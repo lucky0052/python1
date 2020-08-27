@@ -22,4 +22,3 @@ stu1.id = "53"
 print(stu1.display())
 
 
-# reg = name + ""

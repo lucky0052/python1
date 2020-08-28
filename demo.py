@@ -20,5 +20,12 @@ class name:
 stu1 = name('Lucky')
 stu1.id = "53"
 print(stu1.display())
+print(stu1.name)
 
+class newclass(self,name):
+    def __init__(self):
+        self.name = name
+    
+    def __repr__(self):
+        pass
 

@@ -29,3 +29,5 @@ class newclass(self,name):
     def __repr__(self):
         pass
 
+res1 = newclass('Lucky')
+print(res1)

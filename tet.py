@@ -22,10 +22,13 @@ stu1.id = "53"
 print(stu1.display())
 print(stu1.name)
 
-class newclass(self,name):
-    def __init__(self):
+class newclass:
+    def __init__(self,name):
         self.name = name
+
+    def length(self):
+        return f'{len(self.name)}'
     
-    def __repr__(self):
-        pass
+stu1= newclass('Lucky Gautam')
+print(f'Length of {stu1.name}: {stu1.length()}')
 
